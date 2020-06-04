@@ -1,0 +1,27 @@
+{
+  "name": "raissa-lucas-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.22.20",
+    "gatsby-plugin-catch-links": "^2.3.4",
+    "gatsby-plugin-netlify-cms": "^4.3.4",
+    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-source-filesystem": "^2.3.10",
+    "gatsby-transformer-remark": "^2.8.14",
+    "lodash": "^4.17.15",
+    "minireset.css": "0.0.6",
+    "netlify-cms-app": "^2.12.14",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
+  }
+}

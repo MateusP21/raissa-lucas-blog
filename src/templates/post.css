@@ -1,0 +1,18 @@
+.post {
+  width: 100%;
+}
+.title{
+  text-align: left;
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.post-info {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 4px;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px ;
+}

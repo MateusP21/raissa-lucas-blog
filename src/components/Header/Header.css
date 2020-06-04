@@ -1,0 +1,21 @@
+.header {
+  padding: 1.0rem  ;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  font-size: 24px;
+  background: #ffffff;
+  margin-bottom: 1.0rem;
+}
+
+.header a {
+  text-decoration: none;
+  
+}
+
+.header-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #000000;
+}
