@@ -6,16 +6,16 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
+  - name: "Meu blog"
     label: "Blog"
     folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-     preview: false
+     preview: true
     fields:
-      - { label: "Autor", name: "author", widget: "string" }
-      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Data de publicação", name: "date", widget: "datetime" }
       - { label: "Descrição", name: "description", widget: "string" }
       - { label: "Texto", name: "body", widget: "markdown" }
